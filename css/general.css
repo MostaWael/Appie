@@ -1,0 +1,59 @@
+/*
+---- 01 TYPOGRAPHY SYSTEM
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      
+        SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  /* font-size: 10px */
+  /* 10px / 16px = 0.625 = 62.5%*/
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+
+  /*Does NOT Work In Saferi
+    saferi is the browser work in ios
+  */
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #171934;
+  font-weight: 400;
+  line-height: 1;
+  /*Only Works if nothing absoluting postition in body*/
+  overflow-x: hidden;
+}
+
+.container {
+  /* margin: 0 auto; */
+  padding-right: 6.4rem;
+  padding-left: 6.4rem;
+}
+
+/********************/
+/* Text General */
+/*********************/
+
+.sub-text-general {
+  font-size: 1.8rem;
+  color: #7f7880;
+}
+
+/********************/
+/*BUTTON*/
+/*******************/
+
+.btn-general {
+  border-radius: 2.5rem;
+  padding: 1.4rem 2.2rem;
+  text-decoration: none;
+}
